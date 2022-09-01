@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.barra{
+    background-color: #161B33;
+    height: 70px;
+}
+.barra__inicio1{
+    position: relative;
+    text-decoration: none;
+    top: 25px;
+    left: 950px;
+}
+.barra__inicio2{
+    position: absolute;
+    top: 25px;
+    left: 1000px;
+    text-decoration: none;
+}
+.barra__inicio3{
+    position: absolute;
+    top: 25px; 
+    left:1100px ;
+    text-decoration: none;
+}
+.barra__inicio4{
+    position: absolute;
+    top:25px;
+    left:1250px ;
+    text-decoration: none;
+}
+
+.nombre__pagina{
+    color: #F0D3F7;
+    position: absolute;
+    top: 15px;
+}
+.metodo__de__contacto{
+position: relative;
+top: 300px;
+left: 300px;
+}

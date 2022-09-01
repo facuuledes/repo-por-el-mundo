@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.barra{
+    background-color: #161B33;
+    height: 70px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+.barra__inicio1{
+    /* position: relative; */
+    text-decoration: none;
+     top: 25px;
+    left: 900px; 
+}
+.barra__inicio2{
+    
+    text-decoration: none;
+}
+.barra__inicio3{
+  
+    text-decoration: none;
+}
+.barra__inicio4{
+    
+  
+    text-decoration: none;
+}
+
+.nombre__pagina{
+    color: #8b0faa;
+   
+}
+
+.info__nuestra{
+    width:300px;
+    height:auto; 
+    display:inline-block; 
+    border-radius:20px;
+    box-shadow: 10px 10px 17px -1px rgba(0,0,0,0.16);
+    margin:20px;
+    padding:20px 20px 30px 20px;
+}
+
+
+@media all and (min-width:768px){
+
+    .barra{
+    margin-right: 100%;
+    width: 10%;
+}
+
+}

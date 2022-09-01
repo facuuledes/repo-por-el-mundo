@@ -1,0 +1,121 @@
+
+*{
+     padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ .barra {
+    background-color: #161B33;
+    height: 70px;    
+}
+  .barra__inicio1{ 
+    position: relative;  
+     text-decoration: none; 
+     top: 25px;
+    left: 900px;   
+ }
+.barra__inicio2{
+      position: absolute; 
+     top: 25px;
+     left: 1000px;  
+     text-decoration: none;
+} 
+.barra__inicio3{ 
+     position: absolute;
+    top: 25px; 
+    left:1150px ; 
+    text-decoration: none;
+}
+.barra__inicio4{ 
+    position: absolute;
+    top:25px;
+    left:1250px ;   
+    text-decoration: none;
+ }  
+
+  .nombre__pagina{
+    color: #F0D3F7;
+    position: absolute; 
+    top: 15px; 
+} 
+.encabezado{
+    background-image: url(img/mundo.jpg);
+     background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh; 
+    
+}
+.destinos-recomendados__container{
+  
+  background-color: #F0D3F7;
+ 
+}
+.card1{
+    background-color: #12664F;
+    border-radius: 15px;
+    margin:20px;
+    padding:20px 20px 30px 20px;
+    border: 1px solid ;
+    height: 200px;
+    width: 200px; 
+     position: relative;
+    top: 150px; 
+     
+}
+.card2{
+    background-color: #12664F;
+    border-radius: 15px;
+    margin:20px;
+    padding:20px 20px 30px 20px;
+    border: 1px solid ;
+    height: 200px; 
+    width: 200px; 
+     position: relative;
+    top: 120px;
+    left: 300px; 
+    
+ } 
+ .card3{
+    background-color: #12664F;
+    border-radius: 15px;
+    margin:20px;
+    padding:20px 20px 30px 20px;
+    border: 1px solid ;
+    height: 200px;
+    width: 200px; 
+    position: relative;
+    top: 10px;
+    left: 600px; 
+}
+.card4{
+    background-color: #12664F;
+    border-radius: 15px;
+    margin:20px;
+    padding:20px 20px 30px 20px;
+    border: 1px solid ;
+    height: 200px;
+    width: 200px; 
+    position: relative;
+    top: -10px;
+    left: 900px; 
+    
+ }
+.card__titulo{
+    font-size: 15px;
+    text-align: center;
+}
+.imagen__Destino{
+    width:150px;
+    height:150px;
+    object-fit: cover; 
+    margin-bottom:20px;
+    margin-left: 20px;
+} 
+.descripcion{
+    grid-area: texto;
+    background-color: blue;
+}
+

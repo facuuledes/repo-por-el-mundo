@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.barra{
+    background-color: #161B33;
+    height: 70px;
+}
+.barra__inicio1{
+    position: relative;
+    text-decoration: none;
+    top: 25px;
+    left: 900px;
+}
+.barra__inicio2{
+    position: absolute;
+    top: 25px;
+    left: 1000px;
+    text-decoration: none;
+}
+.barra__inicio3{
+    position: absolute;
+    top: 25px; 
+    left:1150px ;
+    text-decoration: none;
+}
+.barra__inicio4{
+    position: absolute;
+    top:25px;
+    left:1250px ;
+    text-decoration: none;
+}
+
+.nombre__pagina{
+    color: #F0D3F7;
+    position: absolute;
+    top: 15px;
+}
+.destinos_container{
+    display: grid;
+    grid-template-areas: 
+    "destino1 destino2 destino3 destino4"
+    "img img2 img3 img4"
+    "texto1 texto2 texto3 texto4"
+    ;
+   
+}
+.destino1{
+    grid-area: destino1;
+    background-color: rgb(255, 0, 0);
+}
+
+.destino2{
+    grid-area: destino2;
+    background-color: rgb(173, 49, 117);
+}
+
+.destino3{
+    grid-area: destino3;
+    background-color: rgb(39, 78, 78);
+}
+.destino4{
+    grid-area: destino4;
+    background-color: rgb(60, 13, 104);
+}
+.img{
+    grid-area: img;
+    width: 400px;
+    height: 400px;
+}
+.img2{
+    grid-area: img2;
+    width: 400px;
+    height: 400px;
+}
+.img3{
+    grid-area: img3;
+    width: 400px;
+    height: 400px;
+}
+
+.img4{
+    grid-area: img4;
+    width: 400px;
+    height: 400px;
+}
+.texto1{
+    grid-area: texto1;
+    text-align: center;
+    background-color: rgb(168, 149, 40);
+}
+.texto2{
+    grid-area: texto2;
+    text-align: center;
+    background-color: rgb(65, 128, 28);
+}
+.texto3{
+    grid-area: texto3;
+    text-align: center;
+    background-color: rgb(22, 120, 150);
+}
+.texto4{
+    grid-area: texto4;
+    text-align: center;
+    background-color: rgb(139, 31, 31);
+}

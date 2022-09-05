@@ -5,58 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title class="mundo">Por el mundo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </head>
   <body>
-   <div class="container">
    <header>
-     <nav class="barra">
-       <ul >
-         <li><a class="barra__inicio1" href="pages/información.html">información</a></li>
-        <li><a class="barra__inicio2" href="pages/recomendaciones.html">recomendaciones</a></li>
-        <li><a class="barra__inicio4" href="pages/nosotros.html">nosotros</a></li>
-        <li><a class="barra__inicio3" href="pages/contacto.html">contacto</a></li> 
-      </ul> 
-    </nav> 
-     <h1 class="nombre__pagina">Por el mundo</h1> 
-   </header>
-   <main class="encabezado">
-    <section class="destinos">
-        
-      <div id="destinos" class="destinos-recomendados__container">
-        
-         <div class="card1">
-         <h4 class="card__titulo">Iguazu y su maravillosa fauna y flora</h4>
-         <a class="link" href="pages/recomendaciones.html">Información sobre iguazu</a>
-         <img class="imagen__Destino" src="img/iguazu.jpg" alt="iguazu-cataratas" > 
+    <nav class="navbar navbar-expand-lg bg-light navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" >POR EL MUNDO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
+            <a class="nav-link" href="./pages/contacto.html">contacto</a>
+            <a class="nav-link" href="./pages/información.html">informacion</a>
+            <a class="nav-link" href="./pages/nosotros.html">nosotros</a>
+            <a class="nav-link" href="./pages/recomendaciones.html">recomendaciones</a>
+          </div>
         </div>
-
-        <div class="card2">
-          <h4 class="card__titulo">Los mejores paisajes de Jujuy</h4>
-         <a href="pages/recomendaciones.html" class="link" >Información sobre jujuy</a>
-         <img class="imagen__Destino" src="img/jujuy.jpg" alt="salar-jujuy" >
-        </div>
-
-        <div class="card3">
-         <h4 class="card__titulo">Bariloche,belleza en las montañas</h4>
-         <a href="pages/recomendaciones.html" class="link" >Información sobre bariloche</a>
-         <img class="imagen__Destino" src="img/bariloche.jpg" alt="montañas-bariloche" >
-        </div>
-
-        <div class="card4">
-          <h4 class="card__titulo">Ushuaia desde el fin del mundo</h4>
-         <a href="pages/recomendaciones.html" class="link">información sobre ushuaia</a>
-         <img class="imagen__Destino" src="img/ushuaia.jpg" alt="farol-ushuaia" >
-        </div>  
-        <div id="descripcion" >
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at ante convallis, maximus lectus in, ullamcorper nunc. Integer facilisis dictum maximus. Aenean id elementum justo. Cras viverra massa sit amet felis pharetra venenatis. Ut eget hendrerit ligula. Cras porta volutpat bibendum. Etiam sed mauris sit amet sem blandit consectetur at sed tellus. Sed sagittis mi eu libero faucibus feugiat.</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at ante convallis, maximus lectus in, ullamcorper nunc. Integer facilisis dictum maximus. Aenean id elementum justo. Cras viverra massa sit amet felis pharetra venenatis. Ut eget hendrerit ligula. Cras porta volutpat bibendum. Etiam sed mauris sit amet sem blandit consectetur at sed tellus. Sed sagittis mi eu libero faucibus feugiat.</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at ante convallis, maximus lectus in, ullamcorper nunc. Integer facilisis dictum maximus. Aenean id elementum justo. Cras viverra massa sit amet felis pharetra venenatis. Ut eget hendrerit ligula. Cras porta volutpat bibendum. Etiam sed mauris sit amet sem blandit consectetur at sed tellus. Sed sagittis mi eu libero faucibus feugiat.</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at ante convallis, maximus lectus in, ullamcorper nunc. Integer facilisis dictum maximus. Aenean id elementum justo. Cras viverra massa sit amet felis pharetra venenatis. Ut eget hendrerit ligula. Cras porta volutpat bibendum. Etiam sed mauris sit amet sem blandit consectetur at sed tellus. Sed sagittis mi eu libero faucibus feugiat.</p>
-       </div>
-      </div  >
       </div>
-    </section>
-   </main>
+    </nav>
+   </header>
+   <main> 
+    <div class="encabezado">
+      <div class="texto_encabezado">
+      <h1>Las mejores reseñas de la web</h1>
+      <p>aqui encontraras las mejores reseñas de viajes de los destinos mas increibles</p>
+      </div>
+    </div>
+    </div>
+   <div class="tarjeta_destino">
+    <div class="card" style="width: 18rem;">
+      <img src="./img/bariloche.jpg" class="card-img-top" alt="paisaje-montañas">
+      <div class="card-body">
+        <h5 class="card-title">Bariloche</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">mas info </a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./img/jujuy.jpg" class="card-img-top" alt="paisaje-jujuy" >
+      <div class="card-body">
+        <h5 class="card-title">Jujuy</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">mas info</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./img/iguazu.jpg" class="card-img-top" alt="paisaje-cataratas">
+      <div class="card-body">
+        <h5 class="card-title">iguazu</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">mas info </a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./img/ushuaia.jpg" class="card-img-top" alt="paisaje-faro">
+      <div class="card-body">
+        <h5 class="card-title">ushuaia</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">mas info </a>
+      </div>
+    </div>
+   </div>
+
+  </main>
 
   <footer>
 

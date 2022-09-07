@@ -11,14 +11,36 @@
     background-position: center;
 }
 .texto_encabezado{
-    color: #E0DFD5;
+    color: #E3F09B;
 }
 .tarjeta_destino{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-top: 5vh;
+    border-radius: 1vh;
+
 }
 .card-img-top{
-    width: 50vh;
-    height: 50vh;
+    width: 40vh;
+    height: 40vh;
+    justify-content: center;
+}
+.footer__container{
+    background-color: #1C3144;
+    height: 200px;
+}
+
+.form-floating{
+    display: flex;
+    width: 30vh;
+    padding-top: 1.5vh;
+}
+.pie-de-pagina{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   padding-bottom: 15vh;
+
 }
